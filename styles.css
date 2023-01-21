@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* Navigation bar styling */
+  
+  .navbar {
+  background-color: #E94560;
+  color: #16213E;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 75px;
+  width:100%;
+  line-height: 50px;
+  }
+
+  .offcanvas {
+    background-color: #E94560;
+  }
+
+  .navbar-toggler {
+    border-radius: 0%;
+  }
+  
+  .navbar-brand, .navbar-toggler {
+    margin: 0 22px;
+  }
+
+  nav ul {
+    margin-left: auto;
+    padding: 0 7px;
+  }
+  
+  nav li {
+    width: auto;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #16213E;
+  }
+  
+   a, .nav-link, .navbar-brand {
+    text-decoration: none;
+    color: #16213E;
+  }
+    
+    a:hover, .nav-link:hover, .navbar-brand:hover {
+    color: #FFE9A0;
+  }
+  
+  /* Welcome section styling */
+  
+  #welcome-section {
+    background-color: #16213E;
+    color: #FFE9A0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 150px 0 100px 0;
+    text-align: center;
+  }
+  
+  #welcome-section h1 {
+  font-size: 9vw;
+  padding: 3%
+  }
+  
+  h2 {
+    color: #E94560;
+    font-size: 5vw;
+  }
+  
+  
+  
+  @media (max-width: 482px) {
+    #welcome-section {
+      padding-top: 200px;
+    }
+  
+    h2 {
+      font-size: 7vw;
+    }
+  }
+  
+  @media (max-width: 315px) {
+    #welcome-section {
+      padding-top: 250px;
+    }
+  }
+  
+  @media (max-width: 208px) {
+    #welcome-section {
+      padding-top: 300px;
+    }
+  }
+  
+  /* About section */
+  
+  #about-section {
+    background-color: #FFE9A0;
+    height: 300px;
+  }
+  
+  /* Project section */
+  
+  #projects {
+    background-color: #16213E;
+  }
+  
+  #projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-tile {
+    background-color: #E94560;
+    height: 250px;
+    line-height: 250px;
+    margin: 40px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  #projects h2 {
+    color: #FFE9A0;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Contacts section */
+  
+  #contact-section {
+    align-items: center;
+    background-color: #FFE9A0;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  #profile-link:hover {
+    color: #E94560;
+  }
